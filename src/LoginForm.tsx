@@ -32,10 +32,6 @@ export default function LoginForm() {
       .catch(error => setErrMsg(error)) 
   }
 
-  const checkError = () => {
-
-  }
-
   const onChange = (e: any) => {
 
     if(e.target.name === "email"){
